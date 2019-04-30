@@ -12,4 +12,4 @@ The application.py contains the code for running the server. The html templates 
 
 The website is deployed in AWS Elastic beanstalk and the endpoint is : 
 
-[CodeTime](Demogag-env.pbqcqttgvf.us-east-2.elasticbeanstalk.com)
+[Endpoint](Demogag-env.pbqcqttgvf.us-east-2.elasticbeanstalk.com)

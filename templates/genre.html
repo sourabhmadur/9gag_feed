@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	
+	<style>
+
+</style>
+</head>
+<body>
+	<h1>The {{feed.feed.title}} feed</h1>
+	
+
+	
+		<ol>
+		
+		{% for entry in feed.entries %}
+		
+
+		<li><h3 align="left"> {{entry.title}}</h3></li>
+		
+		<div align="center">{{entry.summary | safe }}</div>
+
+		<hr>
+
+		
+	
+		{% endfor %}
+
+		</ol>ol>
+
+
+</body>
+</html>
